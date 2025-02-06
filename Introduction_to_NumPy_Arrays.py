@@ -104,3 +104,6 @@ print("The first row of P is:", P[0], "\n")
 print("The third row of P is:", P[2], "\n")
 print("The first column of P is:", P[0:3,0], "\n")
 print("The third column of P is:", P[0:3,2], "\n")
+
+
+print(P[0 : 3, 1], "\n")

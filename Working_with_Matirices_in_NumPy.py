@@ -52,3 +52,12 @@ print("\n")
 print ("The QR factorization of B is \n:")
 for item in np.linalg.qr(B):
   print(item)
+
+##########################################
+
+print(np.linalg.matrix_transpose(A), "\n")
+
+a = np.array([[1, 2], [3, 5]])
+b = np.array([1, 2])
+x = np.linalg.solve(a, b)
+print(x, "\n")

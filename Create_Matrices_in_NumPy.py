@@ -87,3 +87,13 @@ R4 = np.random.randint(-10,10,size =(3,3))
 print("A random 4x4 matrix with all entries 0 or 1:\n", R3, "\n")
 print("A random 3x3 matrix with all entries between -10 and 9:\n", R4, "\n")
 
+################################################
+
+R100 = np.random.randint(-20, 30, size = (4, 6))
+print(R100, "\n")
+
+R101 = R100.reshape((6, 4))
+print(R101, "\n")
+
+R102 = R100.reshape(12, 2)
+print(R102, "\n")
